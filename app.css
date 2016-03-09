@@ -389,6 +389,26 @@ li {
 .pipe {
   color: #9a9da4; }
 
+.photos_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.photo_card {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0; }
+
+.photo_image {
+  width: 100%;
+  padding-top: 5%; }
+
+.photo_info {
+  width: inherit;
+  margin-top: auto;
+  text-align: center; }
+
 * {
   box-sizing: border-box; }
 
